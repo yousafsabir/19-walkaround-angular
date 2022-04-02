@@ -1,0 +1,33 @@
+.nav__container {
+  width: 100%;
+  background-color: #eff6e0;
+  padding: 0.5rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left > * {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.left h3 {
+  color: #b366b3;
+}
+.left a {
+  text-decoration: none;
+  color: #444;
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+.left a:hover {
+  color: #b366b3;
+}
+.left strong {
+  font-size: 1.125rem;
+}
+.right img {
+  width: 2.5rem;
+}

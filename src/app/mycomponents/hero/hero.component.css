@@ -1,0 +1,58 @@
+.hero__container {
+  background-color: #124559;
+  padding: 4rem 16rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero__left,
+.hero__right {
+  padding: 3rem;
+}
+.hero__left {
+  place-self: center start;
+}
+.hero__left h5:first-of-type,
+.hero__left h1 {
+  color: #eff6e0;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 3rem;
+}
+.hero__left h5:last-of-type {
+  color: #aec3b0;
+}
+.hero__left p {
+  margin: 3rem 0 2rem 0;
+  font-size: 1.25rem;
+  color: #eff6e0;
+  line-height: 1.6;
+  word-spacing: 2px;
+}
+.hero__left a {
+  text-decoration: none;
+  outline: none;
+  padding: 0.8rem 2rem;
+  color: #b366b3;
+  background-color: #eff6e0;
+  font-size: 1.28rem;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+.hero__left a:hover {
+  background-color: #bfc5b3;
+  color: #fff;
+}
+.hero__right img {
+  width: 28rem;
+}
