@@ -7,9 +7,17 @@ import { NavbarComponent } from './mycomponents/navbar/navbar.component';
 import { HeroComponent } from './mycomponents/hero/hero.component';
 import { TrackerHeaderComponent } from './mycomponents/tracker-header/tracker-header.component';
 import { TrackerButtonComponent } from './tracker-button/tracker-button.component';
+import { TrackerTasksComponent } from './mycomponents/tracker-tasks/tracker-tasks.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeroComponent, TrackerHeaderComponent, TrackerButtonComponent],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    HeroComponent,
+    TrackerHeaderComponent,
+    TrackerButtonComponent,
+    TrackerTasksComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

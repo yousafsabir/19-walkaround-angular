@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-tracker-button',
@@ -7,8 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TrackerButtonComponent implements OnInit {
   @Input() bgcolor!: string;
+  @Input() color!: string;
   @Input() text!: string;
+  @Output() btnClick = new EventEmitter();
   constructor() {}
 
   ngOnInit(): void {}
+
+  onClick() {
+    this.btnClick.emit();
+  }
 }

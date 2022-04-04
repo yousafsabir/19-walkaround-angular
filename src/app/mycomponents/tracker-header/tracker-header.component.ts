@@ -12,7 +12,7 @@ export class TrackerHeaderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  function1() {
-    console.log('Alhamdulillah');
+  toggleAddTask() {
+    console.log("It's gonna toggle");
   }
 }
